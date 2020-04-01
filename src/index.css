@@ -1,0 +1,397 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(https://i.imgur.com/pZugch7.jpg?1);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Navbar Styling */
+
+#library-link a {
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+.nav-link,
+#library-link a {
+	color: #e7ecef;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nav-icon {
+	color: #e7ecef;
+	font-size: 1em;
+	padding: 0px 10px;
+}
+
+.ui.mini.ui.fixed.top.menu.menu {
+	background-color: #000000;
+	letter-spacing: 0.15em;
+	border-bottom: 1px solid #e7ecef;
+}
+
+.ui.menu img {
+	height: 70px;
+	margin: -5px;
+}
+
+/* Landing Page Display Styling */
+
+.main-title {
+	height: 450px;
+	background-image: url(https://i.imgur.com/QdVnGhV.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	text-shadow: #ff2600 3px 3px;
+	font-size: 1em;
+}
+
+.main-title h2 {
+	font-size: 3em;
+	padding: 125px 5% 0 5%;
+	letter-spacing: 0.2em;
+	color: #ffffff; 
+}
+
+.main-title h2 {
+	font-size: 3.5em;
+}
+
+.point-description {
+	color: #ffffff;
+	font-weight: bolder;
+	text-shadow: #000000 2px 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.point-title,
+.main-title h2 {
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.point {
+	padding: 10px 3% 20px 3%;
+}
+
+.landing-image {
+	margin: 10px auto 10px;
+}
+
+.landing-icon {
+	font-size: 2.5em;
+	color: #ff7300;
+	text-shadow: #ffffff 1px 1px;
+	border-right: none;
+	margin: 0 0 10px 0;
+}
+
+.point-title {
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	height: 60px;
+	vertical-align: middle;
+	font-family: 'Rock Salt', sans-serif;
+	padding-top: 10px;
+	text-shadow: #274c77 1px 1px;
+}
+
+.point-description {
+	font-size: 1.4em;
+}
+
+.ui.menu img {
+	height: 50px;
+	padding: -5px;
+}
+
+.end-title {
+	line-height: 60px;
+}
+
+.ui.grid-area {
+	margin-top: 100px;
+}
+
+.library-item a {
+	background: transparent;
+	color: #ff7300;
+	text-align: center;
+}
+
+.ui.card {
+	padding: 10px 0;
+}
+
+img {
+	padding: 5px 10px 0;
+}
+
+/* Library Styling */
+
+.library-item h3 {
+	font-size: medium;
+	color: black;
+	letter-spacing: 0.04em;
+	font-family: Arial;
+	margin-top: 5px;
+}
+
+.library-item h4 {
+	font-size: 1.2em;
+	color: #ff7300;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 0.05em;
+	margin-top: -14px;
+}
+
+.library-item p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	margin-top: -15px;
+}
+
+/* Image Hover - not affected on mobile */
+
+.ui.fluid.image:hover {
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05) ease-in-out;
+	transition: transform 0.8s ease-in-out;
+	-webkit-transition: transform 0.8s ease-in-out;
+	-moz-transition: transform 0.8s ease-in-out;
+	-ms-transition: transform 0.8s ease-in-out;
+}
+
+.ui.fluid.image {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1) ease-in-out;
+	transition: transform 0.8s ease-in-out;
+	-webkit-transition: transform 0.8s ease-out;
+	-moz-transition: transform 0.8s ease-out;
+	-ms-transition: transform 0.8s ease-out;
+}
+
+/* Album and Player Bar Styling */
+
+/* Track List Styling */
+
+.ui.grid.album {
+	margin-top: 90px;
+}
+
+.album,
+.ui.table,
+.ui.table thead th {
+	color: rgb(172, 50, 2);
+	font-weight: bold;
+}
+
+.ui.table {
+	font-size: 1.2em;
+	overflow-x: scroll;
+}
+
+#song-list {
+	padding: 30px 0 15px 0 !important;
+}
+
+table {
+	letter-spacing: 0.1em;
+}
+
+#release-info {
+	margin-bottom: 200px !important;
+}
+
+/* Table button styling */
+
+tr:hover .fa-play {
+	display: block;
+}
+
+tr .fa-play,
+tr:hover .song-number {
+	display: none;
+}
+
+.song-button {
+	border-radius: 100%;
+	border: 2px #ff7300 solid;
+}
+
+.song-button {
+	height: 35px;
+	width: 35px;
+	background-color: transparent;
+	line-height: 30px;
+}
+
+button.song-button {
+	padding: 0px 0px 1px 0;
+}
+
+.song-button:hover {
+	color: #a3cef1;
+}
+
+#buttons button {
+	background-color: transparent;
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	border-radius: 50%;
+	margin: 5px;
+	font-size: 25px;
+	line-height: 25px;
+	padding-top: 3px;
+	border: 2px solid #e7ecef;
+}
+
+#buttons button:hover {
+	border: 2px solid #a3cef1;
+}
+
+.ui.rating .active.icon {
+	color: rgb(172, 50, 2);
+}
+
+div .ui.segment {
+	padding: 0;
+}
+
+/* Album info Styling */
+
+.album-main-info,
+.album-main-info h1,
+.album-main-info h2,
+.player-controls {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.album-main-info h1 {
+	font-size: 3em;
+	letter-spacing: 0.1em;
+	margin-bottom: -15px;
+}
+
+.album-main-info h2 {
+	font-size: 1.8em;
+	letter-spacing: 0.1em;
+}
+
+/* Player bar styling */
+
+.ui.ui.segment {
+	background-color: transparent;
+}
+
+.player-song {
+	margin-bottom: -3px;
+	font-size: 1.2em;
+	letter-spacing: 0.15em;
+}
+
+.player-other {
+	font-size: 1.1.em;
+	letter-spacing: 0.08em;
+	padding-bottom: 5px;
+}
+
+.player-controls p {
+	padding: 2px 0px;
+}
+
+.player-buttons {
+	padding: 4px 0;
+}
+
+.player-buttons i {
+	font-size: 0.8em;
+	padding: 0 0 4px 2px;
+}
+
+button#previous {
+	padding: 0 4px 2px 0;
+}
+
+button#play-pause {
+	padding: 2px 1px 1px 0;
+}
+
+button#next {
+	padding: 0 1px 0px 0;
+}
+
+.player-controls {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: rgba(45, 45, 45, 0.9);
+	color: #e7ecef;
+	padding: 20px 0;
+}
+
+/* Volume and Time Position slider styling */
+
+.seek-bar {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 15px;
+	background: #e7ecef;
+	outline: none;
+	opacity: 0.85;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+	margin: 0px 10px;
+}
+
+.seek-bar:hover {
+	opacity: 1;
+}
+
+.seek-bar::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	background: #a3cef1;
+	cursor: pointer;
+}
+
+.seek-bar::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	background: #a3cef1;
+	cursor: pointer;
+}
+
+input[type='range'] {
+	width: 100%;
+}
+
+#buttons {
+	display: block;
+}
+
+.sliders > .ui.segment {
+	display: inline-flex;
+	padding: -3px;
+}
